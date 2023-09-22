@@ -1,0 +1,78 @@
+ {
+  "s": "01",
+  "acc": 0.7272727489471436,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 112,
+   "conv_3_filter": 112,
+   "dense_1_filter": 128,
+   "batch_size": 12
+  }
+ },
+ {
+  "s": "05",
+  "acc": 0.7272727489471436,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 112,
+   "conv_3_filter": 112,
+   "dense_1_filter": 128,
+   "batch_size": 14
+  }
+ },
+ {
+  "s": "06",
+  "acc": 0.7272727489471436,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 112,
+   "conv_3_filter": 112,
+   "dense_1_filter": 128,
+   "batch_size": 12
+  }
+ },
+ {
+  "s": "08",
+  "acc": 0.7272727489471436,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 112,
+   "conv_3_filter": 128,
+   "dense_1_filter": 128,
+   "batch_size": 12
+  }
+ },
+ {
+  "s": "12",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 112,
+   "conv_3_filter": 128,
+   "dense_1_filter": 128,
+   "batch_size": 11
+  }
+ },
+ {
+  "s": "17",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 112,
+   "conv_3_filter": 112,
+   "dense_1_filter": 128,
+   "batch_size": 11
+  }
+ },
+ {
+  "s": "02",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 112,
+   "conv_3_filter": 128,
+   "dense_1_filter": 128,
+   "batch_size": 12
+  }
+ }
+]

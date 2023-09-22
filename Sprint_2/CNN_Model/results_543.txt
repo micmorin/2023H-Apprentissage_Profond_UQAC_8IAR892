@@ -1,0 +1,334 @@
+ {
+  "s": "00022",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 64,
+   "batch_size": 12
+  }
+ },
+ {
+  "s": "00033",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 128,
+   "batch_size": 17
+  }
+ },
+ {
+  "s": "00034",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 112,
+   "batch_size": 19
+  }
+ },
+ {
+  "s": "00051",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 112,
+   "batch_size": 7
+  }
+ },
+ {
+  "s": "00080",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 128,
+   "batch_size": 14
+  }
+ },
+ {
+  "s": "00100",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 112,
+   "batch_size": 5
+  }
+ },
+ {
+  "s": "00101",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 96,
+   "batch_size": 7
+  }
+ },
+ {
+  "s": "00129",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 112,
+   "batch_size": 15
+  }
+ },
+ {
+  "s": "00130",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 64,
+   "batch_size": 14
+  }
+ },
+ {
+  "s": "00135",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 80,
+   "batch_size": 12
+  }
+ },
+ {
+  "s": "00208",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 112,
+   "batch_size": 15
+  }
+ },
+ {
+  "s": "00220",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 112,
+   "batch_size": 8
+  }
+ },
+ {
+  "s": "00230",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 96,
+   "batch_size": 15
+  }
+ },
+ {
+  "s": "00244",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 96,
+   "batch_size": 12
+  }
+ },
+ {
+  "s": "00251",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 80,
+   "batch_size": 7
+  }
+ },
+ {
+  "s": "00256",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 128,
+   "batch_size": 11
+  }
+ },
+ {
+  "s": "00258",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 128,
+   "batch_size": 3
+  }
+ },
+ {
+  "s": "00261",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 96,
+   "batch_size": 15
+  }
+ },
+ {
+  "s": "00267",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 128,
+   "batch_size": 20
+  }
+ },
+ {
+  "s": "00271",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 128,
+   "batch_size": 5
+  }
+ },
+ {
+  "s": "00302",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 96,
+   "batch_size": 13
+  }
+ },
+ {
+  "s": "00304",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 128,
+   "batch_size": 5
+  }
+ },
+ {
+  "s": "00321",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 80,
+   "batch_size": 14
+  }
+ },
+ {
+  "s": "00348",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 80,
+   "batch_size": 6
+  }
+ },
+ {
+  "s": "00366",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 64,
+   "batch_size": 20
+  }
+ },
+ {
+  "s": "00369",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 64,
+   "batch_size": 13
+  }
+ },
+ {
+  "s": "00380",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 128,
+   "batch_size": 9
+  }
+ },
+ {
+  "s": "00394",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 96,
+   "batch_size": 4
+  }
+ },
+ {
+  "s": "00415",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 64,
+   "batch_size": 16
+  }
+ },
+ {
+  "s": "00419",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 64,
+   "batch_size": 10
+  }
+ },
+ {
+  "s": "00436",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 112,
+   "batch_size": 14
+  }
+ },
+ {
+  "s": "00438",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 80,
+   "batch_size": 15
+  }
+ },
+ {
+  "s": "00484",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 112,
+   "batch_size": 7
+  }
+ },
+ {
+  "s": "00490",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 64,
+   "batch_size": 11
+  }
+ },
+ {
+  "s": "00534",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 64,
+   "batch_size": 5
+  }
+ },
+ {
+  "s": "00173",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 96,
+   "batch_size": 14
+  }
+ },
+ {
+  "s": "00418",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 64,
+   "batch_size": 11
+  }
+ }
+]

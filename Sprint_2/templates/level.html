@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>{% block head %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Mini Pokemon Shuffle</title>
+
+        <style>
+            .center {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            button {
+                padding: 15px;
+                background-color: white;
+            }
+            .action_button{
+                width: 200px;
+                height: 75px;
+                text-align: center;
+                background-color: lightgray;
+            }
+            .flash {
+                border: 3px outset black;
+                background-color: lightblue;    
+                text-align: center;
+                margin-block-end: 1.67em
+                }
+            .history_cell{
+                width: 200px;
+            }
+            .border{
+                border: 1px solid black; 
+            }
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center
+            }
+         </style>
+    {% endblock %}</head>
+
+    <body>
+        
+        <header>
+            <h1 class="center">Mini Pokemon Shuffle</h1>
+            <h3 class="center">Projet Final - Michael Morin</h3>
+            <h5 class="center">8INF892 - Apprentissage Profond</h5>
+        </header>
+
+        {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                <div class="flash">
+                    {% for message in messages %}
+                    <h2>{{ message }}</h2>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% endwith %}
+        
+        <main>
+            <div>
+                <form id="board" method="POST">
+                    <p class="center"><b>{{current_level.name|capitalize}}</b><br>
+                        HP: {% if current_level.hp - current_level.score < 0 %}0{% else %}{{current_level.hp - current_level.score}}{% endif%}
+                        - Moves left: {{moves_left}}
+                    </p>
+                    <table class="center">
+                        {% set array = board.history|list|last %}
+                            {% for row in array[0] %}
+                            {% set r = loop.index0 %}
+                            <tr>
+                                {% for value in row %}
+                                    <!-- Barriers = Extra Matrix, wood = 10, Metal = 50 -->
+                                    {% if board.barriers[r][loop.index0] == 1 %}
+                                    <th><button type="button" id ="{{ r ~ loop.index0 }}" onclick="select()" 
+                                        style="background-image: url('/static/{{team[value-1][0]}}_b.png');
+                                        background-size: fixed;
+                                        background-repeat: no-repeat;
+                                        background-position: center; 
+                                        padding:25px;
+                                        border:3px solid black;"></button></th>
+                                    {% elif value < 5 %}
+                                        <th><button type="button" id ="{{ r ~ loop.index0 }}" onclick="select()" 
+                                            style="background-image: url('/static/{{team[value-1][0]}}.png');
+                                            background-size: fixed;
+                                            background-repeat: no-repeat;
+                                            background-position: center; 
+                                            padding:25px;
+                                            border:3px solid black;"></button></th>
+                                    {% elif value < 20 %}
+                                        <th><button type="button" id ="{{ r ~ loop.index0 }}" disabled
+                                            style="background-image: url('/static/Wood.png');
+                                            background-size: cover;
+                                            background-repeat: no-repeat;
+                                            background-position: center; 
+                                            padding:25px;
+                                            border:3px solid black;"></button></th>
+                                    {% else %}
+                                        <th><button type="button" id ="{{ r ~ loop.index0 }}" disabled
+                                            style="background-image: url('/static/Metal.png');
+                                            background-size: cover;
+                                            background-repeat: no-repeat;
+                                            background-position: center; 
+                                            padding:25px;
+                                            border:3px solid black;"></button></th>
+                                    {% endif %}
+                                {% endfor %}
+                            </tr>
+                            {% endfor %}
+                      </table>
+                      <input type="hidden" id="selected_hidden" name="selected_hidden" value="">
+                  </form>
+
+                <h4 class="center">
+                    <button type="button" id ="move" onclick="submit()" class="action_button">Do move</button>
+                    <button type="button" id ="ai" onclick="submit_AI()" class="action_button">AI</button>
+                </h4>
+            </div>
+            <div>
+                <h2 class="center">History</h2>
+
+                <table class="center border" style="border-collapse: collapse;">
+                    <th class="history_cell border">Index</th>
+                    <th class="history_cell border">Original Matrix</th>
+                    <th class="history_cell border">AI Matrix</th>
+                    <th class="history_cell border">HP</th>
+                    <th class="history_cell border">Legend</th>
+                    {% for array in board.history %}
+                            <tr>
+                                <td class="border">{{loop.index0}}</td>
+                                <td class="border">
+                                    {% for row in array[0] %}{{row}}<br>{% endfor %}</td>
+                                <td class="border">
+                                    {% for row in array[2] %}{{row}}<br>{% endfor %}</td>
+                                <td class="border">{{array[1]}}</td>
+                                <td class="border" style="padding:auto">
+                                    <img src="/static/{{team[0][0]}}.png" style="vertical-align: middle;" width="32px">
+                                    <span style="vertical-align: middle;">= 1</span> <br>
+                                    <img src="/static/{{team[1][0]}}.png" style="vertical-align: middle;" width="32px">
+                                    <span style="vertical-align: middle;">= 2</span><br>
+                                    <img src="/static/{{team[2][0]}}.png" style="vertical-align: middle;" width="32px">
+                                    <span style="vertical-align: middle;">= 3</span><br>
+                                    <img src="/static/{{team[3][0]}}.png" style="vertical-align: middle;" width="32px">
+                                    <span style="vertical-align: middle;">= 4</span><br>
+                                </td>
+                            </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </main>
+        <script>
+            let selected = []
+
+            window.onload = (event) => {
+                if("{{alert}}" != ""){
+                    alert("{{alert}}");
+                    };
+                }
+                
+            function select() {
+                if(selected.length == 1){
+                document.getElementById(selected[0]).style.border = "3px solid Aqua";
+                }
+                if(selected.length == 2){
+                    document.getElementById(selected.shift()).style.border = "3px solid Black";
+                    document.getElementById(selected[0]).style.border = "3px solid Aqua";
+                }
+                selected.push(event.target.id)
+                document.getElementById(event.target.id).style.border = "3px solid Magenta";
+            }
+
+            function submit() {
+                if(selected.length == 2){
+                    document.getElementById("selected_hidden").value = selected[0]+selected[1];
+                    document.getElementById("board").submit();
+                }
+                else{
+                    alert("You need to select two spaces to swap")
+                }
+            }
+
+            function submit_AI() {
+                document.getElementById("selected_hidden").value = ['0000'];
+                document.getElementById("board").submit();
+            }
+            </script> 
+    </body>
+</html>

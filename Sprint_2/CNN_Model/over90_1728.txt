@@ -1,0 +1,381 @@
+{
+  "s": "00035",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 128,
+   "conv_3_filter": 128,
+   "dense_1_filter": 112
+  }
+ },
+ {
+  "s": "00064",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 80,
+   "conv_3_filter": 96,
+   "dense_1_filter": 112
+  }
+ },
+ {
+  "s": "00180",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 112,
+   "conv_3_filter": 112,
+   "dense_1_filter": 112
+  }
+ },
+ {
+  "s": "00187",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 32,
+   "conv_2_filter": 80,
+   "conv_3_filter": 96,
+   "dense_1_filter": 80
+  }
+ },
+ {
+  "s": "00308",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 64,
+   "conv_3_filter": 80,
+   "dense_1_filter": 64
+  }
+ },
+ {
+  "s": "00506",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 48,
+   "conv_2_filter": 112,
+   "conv_3_filter": 112,
+   "dense_1_filter": 128
+  }
+ },
+ {
+  "s": "00560",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 96,
+   "conv_3_filter": 80,
+   "dense_1_filter": 96
+  }
+ },
+ {
+  "s": "00576",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 64,
+   "conv_3_filter": 48,
+   "dense_1_filter": 64
+  }
+ },
+ {
+  "s": "00647",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 32,
+   "conv_2_filter": 48,
+   "conv_3_filter": 112,
+   "dense_1_filter": 80
+  }
+ },
+ {
+  "s": "00740",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 128,
+   "conv_3_filter": 128,
+   "dense_1_filter": 48
+  }
+ },
+ {
+  "s": "00796",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 112,
+   "conv_3_filter": 48,
+   "dense_1_filter": 80
+  }
+ },
+ {
+  "s": "00814",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 32,
+   "conv_2_filter": 112,
+   "conv_3_filter": 64,
+   "dense_1_filter": 64
+  }
+ },
+ {
+  "s": "00840",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 32,
+   "conv_2_filter": 32,
+   "conv_3_filter": 64,
+   "dense_1_filter": 96
+  }
+ },
+ {
+  "s": "00853",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 64,
+   "conv_3_filter": 80,
+   "dense_1_filter": 96
+  }
+ },
+ {
+  "s": "00995",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 128,
+   "conv_3_filter": 96,
+   "dense_1_filter": 48
+  }
+ },
+ {
+  "s": "00998",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 64,
+   "conv_3_filter": 48,
+   "dense_1_filter": 48
+  }
+ },
+ {
+  "s": "01010",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 48,
+   "conv_2_filter": 128,
+   "conv_3_filter": 128,
+   "dense_1_filter": 96
+  }
+ },
+ {
+  "s": "01030",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 96,
+   "conv_2_filter": 128,
+   "conv_3_filter": 112,
+   "dense_1_filter": 80
+  }
+ },
+ {
+  "s": "01049",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 32,
+   "conv_2_filter": 128,
+   "conv_3_filter": 128,
+   "dense_1_filter": 80
+  }
+ },
+ {
+  "s": "01122",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 80,
+   "conv_3_filter": 80,
+   "dense_1_filter": 64
+  }
+ },
+ {
+  "s": "01148",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 96,
+   "conv_3_filter": 96,
+   "dense_1_filter": 112
+  }
+ },
+ {
+  "s": "01163",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 64,
+   "conv_3_filter": 128,
+   "dense_1_filter": 80
+  }
+ },
+ {
+  "s": "01183",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 48,
+   "conv_2_filter": 112,
+   "conv_3_filter": 80,
+   "dense_1_filter": 96
+  }
+ },
+ {
+  "s": "01189",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 96,
+   "conv_3_filter": 96,
+   "dense_1_filter": 96
+  }
+ },
+ {
+  "s": "01203",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 96,
+   "conv_3_filter": 96,
+   "dense_1_filter": 128
+  }
+ },
+ {
+  "s": "01242",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 32,
+   "conv_2_filter": 64,
+   "conv_3_filter": 96,
+   "dense_1_filter": 80
+  }
+ },
+ {
+  "s": "01248",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 32,
+   "conv_2_filter": 128,
+   "conv_3_filter": 96,
+   "dense_1_filter": 64
+  }
+ },
+ {
+  "s": "01378",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 112,
+   "conv_3_filter": 128,
+   "dense_1_filter": 96
+  }
+ },
+ {
+  "s": "01408",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 96,
+   "conv_3_filter": 80,
+   "dense_1_filter": 80
+  }
+ },
+ {
+  "s": "01444",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 32,
+   "conv_3_filter": 64,
+   "dense_1_filter": 32
+  }
+ },
+ {
+  "s": "01533",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 32,
+   "conv_3_filter": 80,
+   "dense_1_filter": 80
+  }
+ },
+ {
+  "s": "01547",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 48,
+   "conv_3_filter": 96,
+   "dense_1_filter": 48
+  }
+ },
+ {
+  "s": "01550",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 128,
+   "conv_3_filter": 80,
+   "dense_1_filter": 64
+  }
+ },
+ {
+  "s": "01635",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 128,
+   "conv_2_filter": 128,
+   "conv_3_filter": 112,
+   "dense_1_filter": 48
+  }
+ },
+ {
+  "s": "01659",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 80,
+   "conv_3_filter": 80,
+   "dense_1_filter": 96
+  }
+ },
+ {
+  "s": "01691",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 32,
+   "conv_2_filter": 128,
+   "conv_3_filter": 64,
+   "dense_1_filter": 48
+  }
+ },
+ {
+  "s": "01706",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 80,
+   "conv_3_filter": 128,
+   "dense_1_filter": 80
+  }
+ },
+ {
+  "s": "00369",
+  "acc": 1.0,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 80,
+   "conv_3_filter": 80,
+   "dense_1_filter": 96
+  }
+ }
+]

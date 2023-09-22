@@ -1,0 +1,122 @@
+
+ {
+  "s": "001",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 112,
+   "dense_1_filter": 96,
+   "batch_size": 11
+  }
+ },
+ {
+  "s": "003",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 128,
+   "dense_1_filter": 112,
+   "batch_size": 20
+  }
+ },
+ {
+  "s": "007",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 128,
+   "dense_1_filter": 128,
+   "batch_size": 20
+  }
+ },
+ {
+  "s": "014",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 128,
+   "dense_1_filter": 128,
+   "batch_size": 11
+  }
+ },
+ {
+  "s": "015",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 112,
+   "dense_1_filter": 96,
+   "batch_size": 20
+  }
+ },
+ {
+  "s": "029",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 128,
+   "dense_1_filter": 128,
+   "batch_size": 13
+  }
+ },
+ {
+  "s": "039",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 112,
+   "dense_1_filter": 128,
+   "batch_size": 14
+  }
+ },
+ {
+  "s": "045",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 112,
+   "dense_1_filter": 112,
+   "batch_size": 12
+  }
+ },
+ {
+  "s": "058",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 128,
+   "dense_1_filter": 96,
+   "batch_size": 20
+  }
+ },
+ {
+  "s": "060",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 80,
+   "conv_2_filter": 112,
+   "dense_1_filter": 128,
+   "batch_size": 12
+  }
+ },
+ {
+  "s": "064",
+  "acc": 0.8181818127632141,
+  "struct": {
+   "conv_1_filter": 64,
+   "conv_2_filter": 112,
+   "dense_1_filter": 128,
+   "batch_size": 14
+  }
+ },
+ {
+  "s": "036",
+  "acc": 0.9090909361839294,
+  "struct": {
+   "conv_1_filter": 112,
+   "conv_2_filter": 112,
+   "dense_1_filter": 96,
+   "batch_size": 20
+  }
+ }
+]

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>{% block head %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Mini Pokemon Shuffle</title>
+
+        <style>
+            .center {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            button {
+                padding: 15px;
+                background-color: white;
+            }
+            .action_button{
+                width: 200px;
+                height: 75px;
+                text-align: center;
+                background-color: lightgray;
+            }
+            .flash {
+                border: 3px outset black;
+                background-color: lightblue;    
+                text-align: center;
+                margin-block-end: 1.67em
+                }
+         </style>
+    {% endblock %}</head>
+
+    <body>
+        
+        <header>
+            <h1 class="center">Mini Pokemon Shuffle</h1>
+            <h3 class="center">Projet Final - Michael Morin</h3>
+            <h5 class="center">8INF892 - Apprentissage Profond</h5>
+        </header>
+        
+        <main>
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                <div class="flash">
+                    {% for message in messages %}
+                    <h2>{{ message }}</h2>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            {% endwith %}
+            <div>
+                <form id="board" method="POST">
+                    <table class="center">
+                        <tr>
+                            {% for value in team %}
+                                {% if loop.index0 % 4 == 0 %}</tr><tr>{% endif %}
+                                <th><button type="button" id ="{{loop.index0}}" onclick="select()"
+                                style="background-image: url('/static/{{value[0]}}.png');
+                                    background-size: fixed;
+                                    background-repeat: no-repeat;
+                                    background-position: 50% 25%; 
+                                    width:200px;
+                                    border:3px solid black;"><br><br>
+                                    Pokemon:{{value[0]}}<br>
+                                    Power:{{value[1]}}
+                                </button></th>
+                            {% endfor %}
+                        </tr>
+                      </table>
+                      <input type="hidden" id="selected_hidden" name="selected_hidden" value="">
+                  </form>
+
+                <h4 class="center">
+                    <button type="button" id ="move" onclick="submit()" class="action_button">Start Game</button>
+                    <button type="button" id ="ai" onclick="" class="action_button">Choose my Team</button>
+                </h4>
+            </div>
+        </main>
+        <script>
+            let selected = []
+
+            function select() {
+                if(selected.length == 4){
+                document.getElementById(selected.shift()).style.border = "3px solid black";
+                document.getElementById(selected[0]).style.border = "3px solid Chartreuse";
+                }
+                selected.push(event.target.id)
+                document.getElementById(event.target.id).style.border = "3px solid Chartreuse";
+                }
+            function submit() {
+                if(selected.length == 4){
+                    document.getElementById("selected_hidden").value = selected[0]+selected[1]+selected[2]+selected[3];
+                    document.getElementById("board").submit();
+                }
+                else{
+                    alert("You need to select four pokemon to start")
+                }
+            }
+            </script> 
+    </body>
+</html>
